@@ -1,5 +1,6 @@
 import React from 'react'
-import Button from './button'
+import Button from './Button'
+import Srijan from './Srijan'
 function Hero() {
     return (
         <div className='h-screen w-screen'>
