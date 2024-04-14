@@ -17,7 +17,9 @@ export default {
         standard: '40px',
         deadpool: '48px',
         feedme: '200px',
+        thor:'60px',
         spiderman: '80px',
+        batman: '24px',
 
       },
       colors: {
@@ -36,6 +38,9 @@ export default {
         '48': '12rem',
         '56': '14rem',
         '64': '16rem',
+        '72': '18rem',
+        '80': '20rem',
+        '96': '24rem',
       }
     },
   },

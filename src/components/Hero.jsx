@@ -1,31 +1,62 @@
 import React from 'react'
-import Button from './Button'
+//import Button from './Button'
+import About from './About'
+import Count from './Count'
+import Cause from './Cause'
 import Srijan from './Srijan'
+import { Link } from 'react-router-dom'
+import Footer from './Footer'
 function Hero() {
-    return (
-        <div className='h-screen w-screen'>
-            <nav className='text-white'>
-                <ul className='flex justify-center font-quicksand font-semi text-standard my-3 gap-x-10'>
-                    <li className='inline-block mx-4'>Home</li>
-                    <li className='inline-block mx-4'>About</li>
-                    <li className='inline-block mx-4'>Cause</li>
-                    <li className='inline-block mx-4'>Features</li>
-                    <li className='inline-block mx-4'>Contact</li>
-                </ul>
-            </nav>
-            <section className='py-32'>
-                <div className=' font-kodchasan  justify-center'>
-                    <h1 className='flex items-center justify-center text-feedme font-bold text-secondary'>FEEDME</h1>
-                    <h3 className='flex items-center justify-center text-deadpool text-accent font-bold font-quicksand'>Join us in the fight against hunger</h3>
-                </div>
+  return (
+    //white bg is appeaing on top as line 6 is not covering the whole screen -> fixed by adding h-screen w-screen
 
-                <div className="py-10">
-                    <Button />
-                </div>
-            </section>
-
+    <div className='bg-cover bg-no-repeat'
+        style={{backgroundImage:'url("/public/hero-section.png")'}}>
+      <nav className='text-white'>
+      <ul className='flex justify-center font-quicksand font-semi text-standard '>
+          <li className='inline-block mx-4'>
+            <Link to="/">Home</Link>
+          </li>
+          <li className='inline-block mx-4'>
+            <Link to="/about">About</Link>
+          </li>
+          <li className='inline-block mx-4'>
+            <Link to="/cause">Cause</Link>
+          </li>
+          <li className='inline-block mx-4'>
+            <Link to="/features">Features</Link>
+          </li>
+          <li className='inline-block mx-4'>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+      <section className='py-32 my-24'>
+        <div className=' font-kodchasan  justify-center'>
+          <h1 className='flex items-center justify-center text-feedme font-bold text-secondary'>FEEDME</h1>
+          <h3 className='flex items-center justify-center text-deadpool text-accent font-bold font-quicksand -my-12'>Join us in the fight against hunger</h3>
         </div>
-    )
+
+        <div>
+
+          <Link to="/getstarted">
+
+            <button
+             className=" w-[412px] h-[102px] flex items-center justify-center bg-button rounded-[40px] border-8 hover:bg-accent hover:text-primary border-accent font-bold font-quicksand text-standard text-white mx-auto mt-20"
+            >
+              Get Started
+            </button>
+          </Link>
+        </div>
+      </section>
+
+        <About/>
+        <Count/>
+        <Cause/>
+<Footer/>
+    </div>
+
+  )
 }
 
 export default Hero
