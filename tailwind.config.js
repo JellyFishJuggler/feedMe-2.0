@@ -17,6 +17,7 @@ export default {
         standard: '40px',
         deadpool: '48px',
         feedme: '200px',
+        spiderman: '80px',
 
       },
       colors: {

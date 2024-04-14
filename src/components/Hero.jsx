@@ -14,8 +14,8 @@ function Hero() {
             </nav>
             <section className='py-32'>
                 <div className=' font-kodchasan  justify-center'>
-                    <h1 className='text-feedme font-bold text-secondary'>FEEDME</h1>
-                    <h3 className='text-deadpool text-accent font-bold font-quicksand'>Join us in the fight against hunger</h3>
+                    <h1 className='flex items-center justify-center text-feedme font-bold text-secondary'>FEEDME</h1>
+                    <h3 className='flex items-center justify-center text-deadpool text-accent font-bold font-quicksand'>Join us in the fight against hunger</h3>
                 </div>
 
                 <div className="py-10">
