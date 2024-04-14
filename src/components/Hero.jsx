@@ -11,8 +11,8 @@ function Hero() {
     //white bg is appeaing on top as line 6 is not covering the whole screen -> fixed by adding h-screen w-screen
 
     <div className='bg-cover bg-no-repeat'
-        style={{backgroundImage:'url("/public/hero-section.png")'}}>
-      <nav className='text-white'>
+        style={{backgroundImage:'url("/public/hero-section.png")', backgroundSize:'contain'}}>
+      <nav className='text-white py-12'>
       <ul className='flex justify-center font-quicksand font-semi text-standard '>
           <li className='inline-block mx-4'>
             <Link to="/">Home</Link>
@@ -31,7 +31,7 @@ function Hero() {
           </li>
         </ul>
       </nav>
-      <section className='py-32 my-24'>
+      <section className='py-16 my-24'>
         <div className=' font-kodchasan  justify-center'>
           <h1 className='flex items-center justify-center text-feedme font-bold text-secondary'>FEEDME</h1>
           <h3 className='flex items-center justify-center text-deadpool text-accent font-bold font-quicksand -my-12'>Join us in the fight against hunger</h3>
