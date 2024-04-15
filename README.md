@@ -33,7 +33,7 @@ Here are some screenshots of FeedMe 2.0:
         <img src="/Design%20Files/Dashboard%20Page.png" alt="Screenshot of Dashboard Page in FeedMe 2.0" style="width: 100%;">
     </div>
     <div style="flex: 0 0 calc(50% - 10px); margin-bottom: 10px;">
-        <img src="/Design%20Files/Rewards%20-_%20Dashboard%20Page.svg" alt="Screenshot of Rewards in Dashboard Page in FeedMe 2.0" style="width: 100%;">
+        <img src="/Design%20Files/cause-section.png" alt="Screenshot of Rewards in Dashboard Page in FeedMe 2.0" style="width: 100%;">
     </div>
 </div>
 
