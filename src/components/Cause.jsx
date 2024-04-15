@@ -14,17 +14,28 @@ function Cause() {
                 </div>
             </div>
             <div className="grid grid-cols-3 gap-4">
-                <div className="bg-primary h-20 w-192">Srijan</div>
-                <div className="">
-                    <div className="bg-blue-200 h-20 col-start-2">Blue Grid</div>
-                    <div className="bg-primary h-20 col-start-3 row-start-2">Orange Grid</div>
-                </div>
-                {/* <div className="bg-blue-200 h-10 col-start-2 row-start-1"></div>
-  <div className="bg-primary h-10 col-start-3 row-start-1"></div> */}
+                <div className="grid grid-cols-3 gap-4">
+                    <div className="col-start-1 col-span-3 flex items-center justify-start px-4 py-2"> 
+                        <div className="bg-white rounded-lg shadow-lg w-160 h-40">
+                            Srijan
+                        </div>
+                    </div>
 
+                    <div className="col-span-2 flex justify-center gap-4 mx-5">
+                        <div className="bg-blue-200 h-20 mt-4 px-4 py-2 rounded-lg shadow-lg w-480 h-40">
+                            Blue Grid
+                        </div>
+
+                        <div className="bg-primary h-20 mt-4 px-4 py-2 rounded-lg shadow-lg w-480 h-40"> 
+                            Grid 2
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
-    );
+        
+            );
 }
 
 export default Cause;
