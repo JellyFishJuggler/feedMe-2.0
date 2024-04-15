@@ -2,10 +2,10 @@ import React from 'react';
 
 function Count() {
     return (
-        <div className='flex justify-evenly font-quicksand text-spiderman font-semibold text-secondary text-center bg-cover bg-no-repeat'
+        <div className='flex justify-evenly font-quicksand text-deadpool py-16 font-semibold text-secondary text-center bg-cover bg-no-repeat'
             style={{ backgroundImage: 'url("/public/hero-section.png")'}}>
             <div className='flex flex-col '>
-                <div>
+                <div className='text-spiderman'>
                     150+
                 </div>
                 <div>
@@ -13,7 +13,7 @@ function Count() {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <div>
+                <div className='text-spiderman'>
                     156
                 </div>
                 <div>
@@ -21,7 +21,7 @@ function Count() {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <div>
+                <div className='text-spiderman'>
                     2453
                 </div>
                 <div>

@@ -8,16 +8,19 @@ export default {
     extend: {
       backgroundImage: {
         'hero-section': "url('/hero-section.png')",
+        'about-us':"url('about us.png)",
       },
       fontFamily: {
         quicksand: ['Quicksand', 'sans-serif'],
         kodchasan: ['Kodchasan', 'sans-serif'],
       },
       fontSize: {
+        nobita:'28px',
         standard: '40px',
         deadpool: '48px',
         feedme: '200px',
         thor:'60px',
+        goku:'65px',
         spiderman: '80px',
         batman: '24px',
 

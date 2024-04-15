@@ -10,15 +10,15 @@ function Hero() {
   return (
     //white bg is appeaing on top as line 6 is not covering the whole screen -> fixed by adding h-screen w-screen
 
-    <div className='bg-cover bg-no-repeat'
-        style={{backgroundImage:'url("/public/hero-section.png")', backgroundSize:'contain'}}>
-      <nav className='text-white py-12'>
-      <ul className='flex justify-center font-quicksand font-semi text-standard '>
+    <div className='bg-cover bg-no-repeat w-full h-auto'
+        style={{backgroundImage:'url("/public/hero-section.png"', backgroundSize:'contain'}}>
+      <nav className='text-white py-12 font-quicksand font-semibold'>
+      <ul className='flex justify-center  font-semi text-standard '>
           <li className='inline-block mx-4'>
             <Link to="/">Home</Link>
           </li>
           <li className='inline-block mx-4'>
-            <Link to="/about">About</Link>
+            <Link to="/about">About</Link>  
           </li>
           <li className='inline-block mx-4'>
             <Link to="/cause">Cause</Link>
@@ -42,7 +42,7 @@ function Hero() {
           <Link to="/getstarted">
 
             <button
-             className=" w-[412px] h-[102px] flex items-center justify-center bg-button rounded-[40px] border-8 hover:bg-accent hover:text-primary border-accent font-bold font-quicksand text-standard text-white mx-auto mt-20"
+             className=" w-[412px] h-[102px] flex items-center justify-center bg-button rounded-[40px] border-8  hover:bg-accent hover:text-primary border-accent font-bold font-quicksand text-standard text-white mx-auto mt-20"
             >
               Get Started
             </button>
