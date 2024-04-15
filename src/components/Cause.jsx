@@ -22,11 +22,11 @@ function Cause() {
                     </div>
 
                     <div className="col-span-2 flex justify-center gap-4 mx-5">
-                        <div className="bg-blue-200 h-20 mt-4 px-4 py-2 rounded-lg shadow-lg w-480 h-40">
+                        <div className="bg-blue-200  mt-4 px-4 py-2 rounded-lg shadow-lg w-480 h-40">
                             Blue Grid
                         </div>
 
-                        <div className="bg-primary h-20 mt-4 px-4 py-2 rounded-lg shadow-lg w-480 h-40"> 
+                        <div className="bg-primary  mt-4 px-4 py-2 rounded-lg shadow-lg w-480 h-40"> 
                             Grid 2
                         </div>
                     </div>
