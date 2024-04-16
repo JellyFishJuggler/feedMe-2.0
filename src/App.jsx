@@ -11,6 +11,7 @@ import Features from './components/features'
 import Count from './components/Count'
 import Cause from './components/Cause'
 import Footer from './components/Footer'
+import Features from './components/features'
 function App() {
 
 
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Count />
       <Cause />
+      <Features />
       <Footer />     
     </>
   )

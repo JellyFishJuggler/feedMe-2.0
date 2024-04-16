@@ -69,6 +69,7 @@ import Login from './components/Login.jsx';
 import Srijan from './components/Srijan.jsx';
 import './index.css';
 import './App.css';
+import Authentication from './components/Authentication.jsx';
 
 const App = () => {
   return (
@@ -80,7 +81,7 @@ const App = () => {
         <Route path="/features" element={<Features />} />
         <Route path="/count" element={<Count />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/getstarted" element={<Srijan />} />
+        <Route path="/getstarted" element={<Authentication/>} />
       </Routes>
     </Router>
   );

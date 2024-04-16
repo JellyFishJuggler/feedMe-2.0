@@ -44,6 +44,7 @@ export default {
         '72': '18rem',
         '80': '20rem',
         '96': '24rem',
+        '100': '28rem',
         '120': '30rem',
         '144': '36rem',
         '160': '40rem',
@@ -65,6 +66,17 @@ export default {
         '3072': '768rem',
         '3840': '960rem',
         '4096': '1024rem',
+      },
+      borderRadius: {
+        'none': '0',
+        'sm': '0.125rem',
+        DEFAULT: '0.25rem',
+        DEFAULT: '4px',
+        'md': '0.375rem',
+        'lg': '0.5rem',
+        'full': '9999px',
+        'large': '12px',
+
       }
     },
   },
